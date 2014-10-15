@@ -6,7 +6,7 @@ This repository contains source codes which I write in the "ICPC challenge" clas
 
 http://www.graco.c.u-tokyo.ac.jp/icpc-challenge/
 
-2014年度冬学期以降のものは原則全て入れていきます。
+2014年度冬学期以降提出したものは原則全て入れていきます。
 As a general rule, I will put all of the codes I write in the class since the winter term of 2014.
 
 プログラミングコンテストの書き方に沿っています。一般的な開発においてこういう書き方を好んでいるわけではありません。
