@@ -13,13 +13,13 @@ using namespace std;
    a[0]からa[i-1]まででできる増加列に、a[i]をつなげることを検討する。
    a[i]を検討するまでに持っておく価値がある列は、
    ・列kは tail_k を末尾とするもののうち最長列(の1つ)である。
-   ・length_k < length_j \longleftrightarrow tail_k > tail_j をみたしている。
+   ・length_k < length_j \longleftrightarrow tail_k \leq tail_j をみたしている。
    不等号が崩れる関係になっている k, j があるとすると、どちらかはいらない。
    
    (tail, length) で標準的に整列する。
    各a[i]に対して次の動作を行う。
    tail < a[i] となっている列に接続できるから、この内tailが一番大きい
-   ものを選ぶ(列k)とする。
+   もので、lengthも一番大きいものを選ぶ(列k)とする。
    ここにa[i]を接続したものを候補に加える(もとの列も残しておく)。
    加えた列は列k+1になる(または、k+2になって、k+1とtail, lengthが同じ)。
    列k+2との関係は、
