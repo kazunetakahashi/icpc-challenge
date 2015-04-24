@@ -1,3 +1,4 @@
+// http://main.edu.pl/en/archive/oi/3/wie
 // 解法は英国少女がホームステイしているアレを深夜に見ている時に気づいた。
 // main.edu.pl は C++11 が使えないので(本質と関係ないところで)苦労した。
 // やはりAOJ、atcoderが最強ですね。pojとmainはやる気半減です…
