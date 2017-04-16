@@ -1,3 +1,8 @@
+### https://raw.github.com/github/gitignore/f57304e9762876ae4c9b02867ed0cb887316387e/C++.gitignore
+
+# Prerequisites
+*.d
+
 # Compiled Object files
 *.slo
 *.lo
@@ -15,6 +20,7 @@
 
 # Fortran module files
 *.mod
+*.smod
 
 # Compiled Static libraries
 *.lai
@@ -26,3 +32,26 @@
 *.exe
 *.out
 *.app
+
+
+
+### ignored files in my environment ###
+
+# Ignore other unneeded files.
+*.swp
+.project
+.DS_Store
+.idea
+.secret
+
+# Ignore Emacs' temp files.
+\#*\#
+.\#*
+*~
+._*
+*_flymake.*
+
+# Ignore given input/output files in contests.
+*.in
+*.out
+
