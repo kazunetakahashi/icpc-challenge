@@ -1,4 +1,11 @@
-icpc-challenge
+# icpc-challenge
+==============
+
+レポジトリ名は icpc-challenge ですが、
+最近では [Aizu Online Judge](http://judge.u-aizu.ac.jp/onlinejudge/index.jsp?lang=ja) の問題の解答を入れるためのレポジトリとなっています。
+
+以下は、昔の説明文です。
+
 ==============
 
 東京大学教養学部前期課程 全学自由研究ゼミナール「実践的プログラミング」で書いたソースコードです。
